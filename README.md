@@ -19,4 +19,8 @@ There is a limit to the number of planes, circles, triangles, and spheres that c
 
 `RTJS.mexLights`
 
-The above variables are set by default to work on most computers. You may change these before creating a renderer, but you may run into errors if the numbers are too high.
+The above variables are set by default to work on most computers. These values may be changed before creating a renderer, but you may run into errors if the numbers are too high.
+
+# Renderer 
+The `RTJS.Renderer();` class sets up a WebGl context that `RTJS` will draw to.
+##setup
