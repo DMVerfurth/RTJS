@@ -23,4 +23,5 @@ The above variables are set by default to work on most computers. These values m
 
 # Renderer 
 The `RTJS.Renderer();` class sets up a WebGl context that `RTJS` will draw to.
-##setup
+
+## setup
