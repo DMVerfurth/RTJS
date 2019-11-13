@@ -25,3 +25,4 @@ The above variables are set by default to work on most computers. These values m
 The `RTJS.Renderer();` class sets up a WebGl context that `RTJS` will draw to.
 
 ## setup
+To set up the renderer you will need to define `var renderer = new RTJS.Renderer();`. Once done you will then need to add the `domElement` to the document with `document.body.appendChild(renderer.domElement);`
