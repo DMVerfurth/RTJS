@@ -73,3 +73,10 @@ There are a few options for creating a material.
   * `diffuse` - How diffusive the surface is, `1`
   * `specular` - How shiny the surface is, `1`
   * `reflective` - How reflective the surface is, `0`
+  
+# Geometries
+`RTJS` supports `4` different geometries.
+  * `RTJS.PlaneGeometry({options)`
+  * `RTJS.CircleGeometry({options)`
+  * `RTJS.TriangleGeometry({options)`
+  * `RTJS.SphereGeometry({options)`
