@@ -35,3 +35,18 @@ The setup is really simple, all that needs to be done is `var scene = new RTJS.S
 
 ## adding meshes to scene
 The scene is where all of your object meshes will be stored, and `RTJS` makes adding new objects to the scene easy. All that needs to be done is `scene.add(mesh)`
+
+# Camera
+To see into the scene, a `RTJS.Camera` class is needed.
+
+## setup
+Camera setup is easy as well, all that is needed is `var camera = new RTJS.Camera({options})`
+
+## options
+There are a few options when setting up the camera.
+  * `position` - The position of the camera, `{x:0, y:0, z:0}`
+  * `rotation` - The unit vector rotation of the camera, `{x:0, y:0, z:1}`
+  * `backgroundColor` - RGB background color, `{r:0, g:0, b:0}`
+  * `fov` - Horizontal FOV slope, `2`
+  * `near`- How close an object has to be to get ignored, `0.05`
+  * `far` - How far away an object has to be to get ignored, `10000`
