@@ -1,4 +1,4 @@
 # RTJS
-A JS library for ray tracing in the browser with WebGL
+A JS library for fast ray tracing in the browser with WebGL
 
 Documentation Coming Soon!
