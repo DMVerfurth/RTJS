@@ -80,3 +80,36 @@ There are a few options for creating a material.
   * `RTJS.CircleGeometry({options)`
   * `RTJS.TriangleGeometry({options)`
   * `RTJS.SphereGeometry({options)`
+  
+## plane geometry options
+Every geometry has different options that define them, the plane geometry has
+  * `position` -  The position of the infinite plane, `{x:0, y:-1, z:0}`
+  * `normal` - The unit vector normal rotation of the plane, `{x:0, y:1, z:0}`
+  
+## circle geometry options
+Every geometry has different options that define them, the circle geometry has
+  * `position` -  The position of the circle's center plane, `{x:0, y:-1, z:0}`
+  * `normal` - The unit vector normal rotation of the plane, `{x:0, y:1, z:0}`
+  * `radius` - The radius of the circle, `1`
+  
+## triangle geometry options
+The triangle only has the `vertices` option. The `vertices` option is a 2d array. The first dimension has `3` elements (one for each vertex). The second dimension also has `3` elemnts (one for `x`, `y`, and `z`).
+
+## sphere geometry options
+Every geometry has different options that define them, the circle geometry has
+  * `position` -  The position of the spere, `{x:0, y:-1, z:0}`
+  * `radius` - The radius of the sphere, `1`
+  
+# Lighting
+Lighting the scene requires the `RTJS.Light` class. Only point lights are supported and lights are considered a geometry. To create a light, just write `var light = new RTJS.Light({options})`
+
+## options
+The light class has three options
+  * `position` - The position of the light, `{x:0, y:0, z:0}`
+  * `color` - The color of the light, `{r:255, g:255, b:255}`
+  * `intensity` - The intensity of the light, `0.025`
+  
+ Note: lights still need to be added to a mesh before adding them to the scene, any material with the light will be ignored.
+ 
+# Render
+To render a scene, just call `renderer.render(scene, camera)`
