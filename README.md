@@ -25,10 +25,10 @@ The above variables are set by default to work on most computers. These values m
 The `RTJS.Renderer` class sets up a WebGl context that `RTJS` will draw to.
 
 ## setup
-To set up the renderer you will need to define `var renderer = new RTJS.Renderer();`. Once done you will then need to add the `domElement` to the document with `document.body.appendChild(renderer.domElement);`
+To set up the renderer you will need to define `var renderer = new RTJS.Renderer();` Once done you will then need to add the `domElement` to the document with `document.body.appendChild(renderer.domElement);`
 
 ## sizing
-Setting the size of the renderer is really simple. Just call `renderer.setSize(width, height, resolution);`. The size of the renderer on the page will equal to the `width` and `height`, and the pixel density inside of the renderer can be changed. Real time applications might need a `resolution` of `0.5`, meaning that the renderer only has to deal with half the pixels.
+Setting the size of the renderer is really simple. Just call `renderer.setSize(width, height, resolution);` The size of the renderer on the page will equal to the `width` and `height`, and the pixel density inside of the renderer can be changed. Real time applications might need a `resolution` of `0.5`, meaning that the renderer only has to deal with half the pixels.
 
 ## rendering
 To render a scene, just call `renderer.render(scene, camera)`
@@ -37,7 +37,7 @@ To render a scene, just call `renderer.render(scene, camera)`
 The `RTJS.Scene` class is where all of the meshes for the scene will be stored.
 
 ## setup
-The setup is really simple, all that needs to be done is `var scene = new RTJS.Scene();`.
+The setup is really simple, all that needs to be done is `var scene = new RTJS.Scene();`
 
 ## adding meshes to scene
 The scene is where all of your object meshes will be stored, and `RTJS` makes adding new objects to the scene easy. All that needs to be done is `scene.add(mesh);`
