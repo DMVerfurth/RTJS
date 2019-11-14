@@ -30,6 +30,9 @@ To set up the renderer you will need to define `var renderer = new RTJS.Renderer
 ## sizing
 Setting the size of the renderer is really simple. Just call `renderer.setSize(width, height, resolution);`. The size of the renderer on the page will equal to the `width` and `height`, and the pixel density inside of the renderer can be changed. Real time applications might need a `resolution` of `0.5`, meaning that the renderer only has to deal with half the pixels.
 
+## rendering
+To render a scene, just call `renderer.render(scene, camera)`
+
 # Scene
 The `RTJS.Scene` class is where all of the meshes for the scene will be stored.
 
@@ -110,6 +113,3 @@ The light class has three options
   * `intensity` - The intensity of the light, `0.025`
   
  Note: lights still need to be added to a mesh before adding them to the scene, any material with the light will be ignored.
- 
-# Render
-To render a scene, just call `renderer.render(scene, camera)`
