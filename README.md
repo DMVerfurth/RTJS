@@ -2,9 +2,9 @@
 This was my first attempt at building a ray tracer. This project was done on a school provided chromebook my sophmore year of high school. I will not be making updates or improvements to this project because of the nostalgia that it holds (starting over with my current knowledge would result in a better product anyway).
 
 # Linking
-Link this library in your html file before any other scripts `<script src='/lib/path/rtjs.js'></script>`
+Link this library in your html file before any other scripts `<script src='/rtjs.js'></script>`
 
-All classes, variables, and function for this library will be located in the `RTJS` object.
+All classes, variables, and function for this library will be accessed through `RTJS`
 
 # Limits
 There is a limit to the number of planes, circles, triangles, and spheres that can be handled by the library. You can find these limits under
