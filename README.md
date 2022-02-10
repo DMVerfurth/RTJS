@@ -1,5 +1,5 @@
 # About
-This was my first attempt at building a ray tracer. This project was done on a school provided chromebook my sophmore year of high school. I will not be making updates or improvements to this project because of the nostalgia that it holds (starting over with my current knowledge would result in a better product anyway).
+This was my first attempt at building a ray tracer. This project was done on a school provided chromebook during my sophomore year of high school. I will not be making updates or improvements to this project because of the nostalgia that it holds (starting over with my current knowledge would result in a better product anyway).
 
 # Linking
 Link this library in your html file before any other scripts `<script src='/rtjs.js'></script>`
